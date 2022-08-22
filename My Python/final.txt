@@ -1,0 +1,10 @@
+name_list = []
+mystring = ''
+while (True) :
+    name = input("Next Word : ")
+    name_list.append(name)    
+    if name == "." :
+        break
+for x in name_list:
+    mystring += ' ' + x
+print ("Sentence : ", mystring)
